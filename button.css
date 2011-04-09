@@ -30,7 +30,7 @@ a.button {
     color: #222;
     color: rgba(0,0,0,0.95);
     background-color: #ddd;
-    background-image: url(../img/button_overlay.png);
+    background-image: url(img/button_overlay.png);
     background-position: left top;
     background-repeat: repeat-x;
     text-decoration: none;
