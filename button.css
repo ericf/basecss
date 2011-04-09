@@ -13,13 +13,13 @@ input[type=reset],
 a.button {
     position: relative;
     outline: 0;
-    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.10);
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.10);
     box-shadow: 0 1px 1px rgba(0,0,0,0.10);
     border: #bbb 1px solid;
     border-color: rgba(0,0,0,0.20);
-    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
     border-radius: 3px;
     margin: 0;
     padding: 0 10px;
@@ -88,8 +88,8 @@ a.button:focus {
     outline: 2px solid rgba(63, 152, 221, 0);   /* Safari needs an outline for box-shadow in tight places */
     -moz-outline: 1px solid rgb(63, 152, 221);  /* FF < 3.5 */
     -moz-outline-radius: 3px;                   /* FF < 3.5 */
-    -moz-box-shadow: 0 0 2px rgb(63, 152, 221);
     -webkit-box-shadow: 0 0 2px rgb(63, 152, 221);
+    -moz-box-shadow: 0 0 2px rgb(63, 152, 221);
     box-shadow: 0 0 2px rgb(63, 152, 221);
     -webkit-transition: -webkit-box-shadow 0.10s ease;
 }
@@ -158,8 +158,8 @@ input[type=button].round,
 input[type=submit].round,
 input[type=reset].round,
 a.button.round {
-    -moz-border-radius: 14px;
     -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
     border-radius: 14px;
 }
 
@@ -184,8 +184,8 @@ input[type=button].small.round,
 input[type=submit].small.round,
 input[type=reset].small.round,
 a.button.small.round {
-    -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
     border-radius: 11px;
 }
 
@@ -211,8 +211,8 @@ input[type=button].large.round,
 input[type=submit].large.round,
 input[type=reset].large.round,
 a.button.large.round {
-    -moz-border-radius: 18px;
     -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
     border-radius: 18px;
 }
 
@@ -245,8 +245,8 @@ input[type=button].huge.round,
 input[type=submit].huge.round,
 input[type=reset].huge.round,
 a.button.huge.round {
-    -moz-border-radius: 21px;
     -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
     border-radius: 21px;
 }
 
@@ -268,8 +268,9 @@ input[type=reset][disabled],
 a.button[disabled] {
     position: static                !important;
     outline: 0                      !important;
-    -moz-box-shadow: none           !important;
     -webkit-box-shadow: none        !important;
+    -moz-box-shadow: none           !important;
+    box-shadow: none                !important;
     border-color: #ddd              !important;
     border-color: rgba(0,0,0,0.10)  !important;
     cursor: default                 !important;
