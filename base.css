@@ -5,35 +5,33 @@
  */
 
 html { overflow-y: scroll; }
-body { font: 14px/1.5 sans-serif; } /* 14px / 21px */
+body { font: 14px/1.427 sans-serif; } /* 14px / 20px */
 
 select, input, button, textarea { font: 99% sans-serif; }
 
-h1 { font-size: 200%;   line-height: 1.250;     margin: 21px 0; }   /* 28px / 35px */
-h2 { font-size: 150%;   line-height: 1.3334;    margin: 14px 0; }   /* 21px / 28px */
-h3 { font-size: 128.6%; line-height: 1.556;     margin: 14px 0; }   /* 18px / 28px */
-h4 { font-size: 114.3%; line-height: 1.313;     margin: 7px 0; }    /* 16px / 21px */
-h5 { font-size: 100%;   line-height: 1.500;     margin: 7px 0; }    /* 14px / 21px */
-h6 { font-size: 85.7%;  line-height: 1.167;     margin: 7px 0; }    /* 12px / 14px */
+h1 { font-size: 214.3%; line-height: 1.333; margin: 20px 0; } /* 30px / 40px */
+h2 { font-size: 171.4%; line-height: 1.250; margin: 15px 0; } /* 24px / 30px */
+h3 { font-size: 142.9%; line-height: 1.250; margin: 15px 0; } /* 20px / 25px */
+h4 { font-size: 128.6%; line-height: 1.313; margin: 10px 0; } /* 18px / 25px */
+h5 { font-size: 114.3%; line-height: 1.250; margin: 10px 0; } /* 16px / 20px */
+h6 { font-size: 100.0%; line-height: 1.427; margin: 10px 0; } /* 14px / 20px */
 
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-fieldset, p, pre, table { margin: 0 0 21px 0; }
+fieldset, p, pre, table { margin: 0 0 20px 0; }
 
-blockquote, dl, ol, ul { margin: 21px 20px; }
+blockquote, dl, ol, ul { margin: 20px 20px; }
 
 dl, ol, ul { margin-left: 40px; }
 
-dd { margin: 7px 0 7px 20px; }
+dd { margin: 10px 0 10px 20px; }
 
-li { margin: 7px 0; }
+li { margin: 10px 0; }
 
 ol li { list-style: decimal outside; }
 ul li { list-style: disc outside; }
 
-small {
-    font-size: 85.7%;
-}
+small { font-size: 85.7%; }
 
 strong { font-weight: bold; }
 
