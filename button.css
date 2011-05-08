@@ -42,6 +42,7 @@ a.button {
     -moz-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    zoom: 1;
 }
 button,
 input[type=button],
@@ -53,15 +54,14 @@ a.button {
     height: 26px;
 }
 
-.ielte7 button,
-.ielte7 input[type=button],
-.ielte7 input[type=submit],
-.ielte7 input[type=reset],
-.ielte7 a.button {
+.ie7 button,
+.ie7 input[type=button],
+.ie7 input[type=submit],
+.ie7 input[type=reset],
+.ie7 a.button {
     overflow: visible;
     color: #222;
     display: inline;
-    zoom: 1;
 }
 
 /**
@@ -101,18 +101,19 @@ input[type=reset]::-moz-focus-inner {
     border: none;                               /* FF inner-focus disabling */
 }
 
-.ielte8 button:focus,
-.ielte8 input[type=button]:focus,
-.ielte8 input[type=submit]:focus,
-.ielte8 input[type=reset]:focus,
-.ielte8 a.button:focus {
+.ie8 button:focus,
+.ie8 input[type=button]:focus,
+.ie8 input[type=submit]:focus,
+.ie8 input[type=reset]:focus,
+.ie8 a.button:focus {
     outline: 1px solid rgb(63, 152, 221);
 }
-.ielte7 button:focus,
-.ielte7 input[type=button]:focus,
-.ielte7 input[type=submit]:focus,
-.ielte7 input[type=reset]:focus,
-.ielte7 a.button:focus {
+.ie7 button:focus,
+.ie7 input[type=button]:focus,
+.ie7 input[type=submit]:focus,
+.ie7 input[type=reset]:focus,
+.ie7 a.button:focus {
+    outline: 1px solid rgb(63, 152, 221);
     border: 1px solid rgb(63, 152, 221);
 }
 
@@ -129,10 +130,14 @@ a.button:active {
     background-color: #ccc;
 }
 
-.ielte8 button:active,
-.ielte8 input[type=button]:active,
-.ielte8 input[type=submit]:active,
-.ielte8 input[type=reset]:active {
+.ie7 button:active,
+.ie8 button:active,
+.ie7 input[type=button]:active,
+.ie8 input[type=button]:active,
+.ie7 input[type=submit]:active,
+.ie8 input[type=submit]:active,
+.ie7 input[type=reset]:active,
+.ie8 input[type=reset]:active {
     padding: 0 11px 0 9px;                  /* IE8 help with text shifting */
     background-position: 1px 1px;
 }
@@ -216,10 +221,14 @@ a.button.large.round {
     border-radius: 18px;
 }
 
-.ielte8 button.large:active,
-.ielte8 input[type=button].large:active,
-.ielte8 input[type=submit].large:active,
-.ielte8 input[type=reset].large:active {
+.ie7 button.large:active,
+.ie8 button.large:active,
+.ie7 input[type=button].large:active,
+.ie8 input[type=button].large:active,
+.ie7 input[type=submit].large:active,
+.ie8 input[type=submit].large:active,
+.ie7 input[type=reset].large:active
+.ie8 input[type=reset].large:active {
     padding: 0 16px 0 14px;                 /* IE8 help with text shifting */
 }
 
@@ -250,10 +259,14 @@ a.button.huge.round {
     border-radius: 21px;
 }
 
-.ielte8 button.huge:active,
-.ielte8 input[type=button].huge:active,
-.ielte8 input[type=submit].huge:active,
-.ielte8 input[type=reset].huge:active {
+.ie7 button.huge:active,
+.ie8 button.huge:active,
+.ie7 input[type=button].huge:active,
+.ie8 input[type=button].huge:active,
+.ie7 input[type=submit].huge:active,
+.ie8 input[type=submit].huge:active,
+.ie7 input[type=reset].huge:active,
+.ie8 input[type=reset].huge:active {
     padding: 0 21px 0 19px;                 /* IE8 help with text shifting */
 }
 
